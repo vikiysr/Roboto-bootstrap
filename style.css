@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@300..700&family=Cutive+Mono&family=Dosis:wght@200..800&family=Farsan&family=Forum&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lemonada:wght@300..700&family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Play:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Podkova:wght@400..800&family=Poor+Story&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+.free-btn{
+    border:1px solid #0094b9;
+}
+.free-btn:hover{
+    background-color: #0094b9 !important;
+}
+.free-btn:hover a{
+    color: white !important;
+}
+.navbarTag{
+    color:white !important;
+}
+.c:hover{
+    transform: scale(1.1);
+}
+.heroSection{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(./images/genius-coder-programme.jpg);
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-height:280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 100px 100px 0;
+}
+.jumbotron{
+    height:100%;
+    margin-top:100px;
+}
+.jumbotron h1{
+    padding-left:25px;
+    border-left:5px solid #0094b9;
+    color:white;
+    font-size:50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.jumbotron p{
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+    color:white;
+}
+
+@media (max-width:992px) {
+    .inquire{
+        display:none;
+    }
+
+}
+.signup-btn{
+    border:1px solid #0094b9 !important;
+}
+.signup-btn:hover{
+    background: #0094b9 !important;
+}
+.signup-btn:hover a{
+    color:white !important;
+}
+/* .card-header{ 
+    padding:200px 100px 0;
+} */
+.i{
+    padding:5px;
+}
+.txt{
+    font-size: smaller;
+}
+.whyUsContainer{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))  ,url(./images/robotics-courses.jpg);
+    opacity:0.8;
+    min-height:110vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.colorCardHeader{
+    height:150px !important;
+}
+.colorCardBody{
+    height:300px !important;
+}
+.whyUsRow{
+    min-height:80vh;
+}
+.read-btn:hover{
+    background: black;
+}
+.read-btn:hover a{
+    color:white !important;
+}
+.chat-btn:hover{
+    background: green;
+}
+.chat-btn:hover a{
+    color:white !important;
+}
+footer{
+    background: #222222;
+    padding-left: 40px;
+}
+.f2 p{
+    line-height: 0.5;
+}
+.fa-facebook{
+    padding: 7px;
+}
+.fa-youtube{
+    padding:7px;
+}
+.fa-whatsapp{
+    padding:7px;
+}

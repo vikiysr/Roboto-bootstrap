@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roboto Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand mx-5 my-3" href="#"><img src="./images/roboto-coding-academy-logo.png"
+                        width="100px" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa-solid fa-bars navbarTag"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item dropdown text-center">
+                            <a class="nav-link dropdown text-white" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu text-center text-center">
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-users"></i>&nbsp;&nbsp;About
+                                        us & Track Recordss</a></li>
+                                <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-chalkboard-user"></i>&nbsp;&nbsp;Pedagogy</a></li>
+                                <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-swatchbook"></i>&nbsp;&nbsp;Subjects</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown text-center">
+                            <a class="nav-link dropdown text-white" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Coding Classes
+                            </a>
+                            <ul class="dropdown-menu text-center">
+                                <li><a class="dropdown-item text-center " href="#">
+                                        <div class="d-flex text-center">
+                                            <i
+                                                class="fa-solid fa-rocket rounded-circle fs-2 bg-body-secondary p-3 me-3"></i>
+                                            <div class="d-flex flex-column text-center">
+                                                <p>WEEKLY CLASSES</p>
+                                                <p>Genius Coder Programme</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item text-center" href="#">
+                                        <div class="d-flex">
+                                            <i
+                                                class="fa-solid fa-campground rounded-circle fs-2 bg-body-secondary p-3 me-3"></i>
+                                            <div class="d-flex flex-column">
+                                                <p>HOLIDAY CAMPS</p>
+                                                <p>June 2024 Tech Camps</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown text-center">
+                            <a class="nav-link dropdown text-white" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Competetions
+                            </a>
+                            <ul class="dropdown-menu text-center">
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-mobile me-2"></i>2023
+                                        Hackathon</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-robot me-2"></i>Robotic
+                                        Competetions in Singapore</a></li>
+                                <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-trophy me-2"></i>Codefest</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa-brands fa-codepen me-2"></i>NTU
+                                        CAmpcOde</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown text-center">
+                            <a class="nav-link dropdown text-white" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Schools
+                            </a>
+                            <ul class="dropdown-menu text-center">
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-layer-group me-2"></i>CCA
+                                        Training</a></li>
+                                <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-place-of-worship me-2"></i>Applied Learning
+                                        Programme(ALP)</a></li>
+                                <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-building-columns me-2"></i>Government Funded
+                                        Programmes</a></li>
+                                <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-industry me-2"></i>Organizations & Communities</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link text-white" aria-current="page" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown text-center">
+                            <a class="nav-link dropdown text-white" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contact Us
+                            </a>
+                            <ul class="dropdown-menu text-center">
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-phone me-2 "></i>Contact
+                                        Info</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa-regular fa-comment me-2"></i>FAQ</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-user-tie me-2"></i>Careers</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item  text-center">
+                            <button class="free-btn ms-2 p-0 bg-transparent rounded w-100"><a class="nav-link"
+                                    style="color:#0094b9;" aria-current="page" href="#">Free Trial</a></button>
+                        </li>
+                </div>
+                <div class="inquire me-2">
+                    <p class="text-white">Inquire Now!</p>
+                    <p style="color:#0094b9;">+65 9193 8589</p>
+                </div>
+            </div>
+        </nav>
+        <div class="heroContainer">
+            <div class="heroSection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="jumbotron">
+                                <h1>Genius Coder Programme</h1>
+                                <p>Start Learning in Coding Classes Now!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- bright section starts -->
+        <section class="brightContainer">
+            <div class="brightSection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="brightHeader">
+                                <h2 class="text-center my-5" style="color:#172b4d;">Building Bright Futures For Smart
+                                    Minds
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-4">
+                            <div class="brightAbout">
+                                <p>Looking for a structured for long term STEM programme to give your child a head
+                                    start? The
+                                    Genius
+                                    Coder Programme is a weekly coding class that is your child’s first step towards an
+                                    engaging
+                                    and
+                                    holistic technological education journey.
+                                </p>
+                                <p>Our coding classes in Singapore are designed to impart Code Literacy and
+                                    Computational
+                                    Thinking
+                                    principles and skills to our youth. With our structured programme based on the ICT
+                                    framework
+                                    and
+                                    our well-honed pedagogy, your child will be introduced to an exciting variety of
+                                    subjects.
+                                </p>
+                                <img src="./images/genius-coder-programme (1).jpg" alt="brightImage"
+                                    class="img-fluid img-thumbnail heroImg">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 mb-5">
+                            <div class="brightTable">
+                                <table class="table table-bordered">
+                                    <div class="tbody">
+                                        <tr>
+                                            <td>Age Requirement</td>
+                                            <td>Age 6 - 16</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Location</td>
+                                            <td>
+                                                <ul class="list-unstyled">
+                                                    <li><a href="">Orchard (Opp 313 Somerset)</a></li>
+                                                    <li><a href="">Novena (Goldhill Centre)</a></li>
+                                                    <li><a href="">Tampines (Opp Tampines Hub)</a></li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Class Size</td>
+                                            <td>
+                                                Small classes <br>
+                                                1:3 Teacher-Student ratio
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lesson Structure</td>
+                                            <td>1 Session = 1 hour 30 mins
+                                                <br>
+                                                1 Semester = 24 Sessions
+                                                <br>
+                                                Full Programme = 6 Semesters
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dates & Times</td>
+                                            <td>Every Saturday or Sunday
+                                                <ul>
+                                                    <li>09.00am - 10.30am</li>
+                                                    <li>10.45am - 12.15pm</li>
+                                                    <li>01.00pm - 02.30pm</li>
+                                                    <li>02.45pm - 04.15pm</li>
+                                                    <li>04.30pm - 06.00pm</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fees</td>
+                                            <td>Monthly (4 Lessons): <br>
+                                                $285 + $50 (Reg Fee) <br>
+                                                <br>
+                                                Semester (24 Lessons): <br>
+                                                $1625 (Original: $1710) <br>
+                                                + $50 (Reg Fee)
+                                            </td>
+                                        </tr>
+                                    </div>
+                                </table>
+                                <button class="signup-btn w-100 rounded-2 py-2">
+                                    <a href="#" class="text-decoration-none" style="color:#0094b9;">SIGN UP FOR A FREE
+                                        TRIAL</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- bright section ends -->
+        <!-- why section starts -->
+        <section class="whyContainer">
+            <div class="whySection">
+                <div class="container">
+                    <div class="row justify-content-lg-center my-3">
+                        <div class="col-12 col-lg-8">
+                            <div class="whyHeader text-center">
+                                <h2 style="color:#172b4d;">Why should your child learn coding?</h2>
+                                <p>Coding opens the doors to imagination and innovation: kids
+                                    experiment, employ whole-brain thinking
+                                    and develop the confidence to create. With the rise of automation and artificial
+                                    intelligence,
+                                    the
+                                    need for code literacy and computational thinking will expand beyond technological
+                                    industries to
+                                    become a necessary core competency of the 21st century.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row my-3 gy-3">
+                        <div class="col-12 col-lg-4">
+                            <div class="card p-lg-5" style="background: #0094b9;">
+                                <div class="card-header text-center">
+                                    <i class="fa-solid fa-brain fs-5 bg-white rounded-circle i"
+                                        style="color: #0094b9;"></i>
+                                    <h2 class="card-title text-white text-center">Computational Thinking</h2>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <ul class="col-6 txt">
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-chart-pie  bg-primary-subtle rounded-circle i"
+                                                    style="color: #0094b9;"></i>Decomposition</li>
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-chart-bar  bg-primary-subtle rounded-circle i"
+                                                    style="color: #0094b9;"></i>Patterns</li>
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-diagram-project bg-primary-subtle rounded-circle i"
+                                                    style="color: #0094b9;"></i></i>Data Structures</li>
+                                        </ul>
+                                        <ul class="col-6 txt">
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-bars-staggered bg-primary-subtle rounded-circle i"
+                                                    style="color: #0094b9;"></i>Algorithm</li>
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-chart-gantt  bg-primary-subtle rounded-circle i"
+                                                    style="color: #0094b9;"></i>Abstraction</li>
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-circle-nodes bg-primary-subtle rounded-circle i"
+                                                    style="color: #0094b9;"></i>Logics</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="card bg-warning p-lg-5">
+                                <div class="card-header text-center">
+                                    <i
+                                        class="fa-solid fa-laptop-code fs-5 bg-warning-subtle rounded-circle i text-warning"></i>
+                                    <h2 class="card-title text-white text-center">Code <br> literacy</h2>
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="row">
+                                        <ul class="col-6 txt">
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-play  bg-warning-subtle text-warning rounded-circle  i"></i>Events
+                                            </li>
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-table-list  bg-warning-subtle text-warning rounded-circle i"></i>Sequences
+                                            </li>
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-temperature-arrow-up bg-warning-subtle  text-warning rounded-circle i"></i></i>Variables
+                                            </li>
+                                        </ul>
+                                        <ul class="col-6 text-start txt">
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-share bg-warning-subtle  text-warning rounded-circle  i"></i>Loops
+                                            </li>
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-code-fork  bg-warning-subtle  text-warning rounded-circle i"></i>Conditionals
+                                            </li>
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-f bg-warning-subtle  text-warning rounded-circle  i"></i>Functions
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="card bg-black p-lg-5">
+                                <div class="card-header text-center">
+                                    <i class="fa-solid fa-laptop-file fs-5 bg-dark-subtle rounded-circle i"></i>
+                                    <h2 class="card-title text-white text-center">Technology Education</h2>
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="row">
+                                        <ul class="col-6 txt">
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-gamepad  bg-dark-subtle text-dark rounded-circle  i"></i>Game
+                                                Design</li>
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-window-restore  bg-dark-subtle text-dark rounded-circle i "></i>Web
+                                                Design</li>
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-robot bg-dark-subtle text-dark  rounded-circle i"></i></i>Robotics
+                                            </li>
+                                        </ul>
+                                        <ul class="col-6 txt">
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-mobile bg-dark-subtle  text-dark rounded-circle  i"></i>Mobile
+                                                App Dev</li>
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-laptop-code  bg-dark-subtle ro text-dark rounded-circle i"></i>Data
+                                                Analytics</li>
+                                            <li class="list-unstyled mb-4 text-white"><i
+                                                    class="fa-solid fa-gears bg-dark-subtle ro text-dark rounded-circle i"></i>Digital Maker</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- whyUs section start -->
+        <section class="whyUsContainer">
+            <div class="whyUsSection">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-12 col-lg-8 col-xl-6 text-white p-5">
+                            <div class="whyUsContent">
+                                <h2 class="fs-1 fw-bold text-center p-3">WHY US</h2>
+                                <h2 class="text-warning fw-light text-center mb-5">Trusted by over 100 schools and the
+                                    pioneer
+                                    of a truly holistic, long-term, student-centric coding
+                                    enrichment programme.</span>
+                                </h2>
+                                <p class="text-center">Roboto Coding Academy's curriculum has been tried-and-tested in
+                                    over
+                                    100
+                                    schools by
+                                    MOE-registered
+                                    trainers while our student-centric pedagogy has been proven to develop creative,
+                                    inspired
+                                    and
+                                    self-directed learners. But hey, don't take our word for it, let our students tell
+                                    you
+                                    all
+                                    about it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- whyUs section end -->
+        <!-- ready section starts -->
+        <section class="readyContainer">
+            <div class="readySection">
+                <div class="container my-5">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-8 text-center">
+                            <div class="readyContent">
+                                <h1 class="mb-5" style="color:#172b4d;">Ready for your Child to embark on his/her Coding
+                                    journey?
+                                </h1>
+                                <h5 class="mb-4">Here’s how to start Genius Coder Programme with a free trial today</h5>
+                                <p class="mb-5">* All laptops and equipment will be provided</p>
+                                <button class="signup-btn rounded-2 py-2 w-100"><a href="#" class="text-decoration-none"
+                                        style="color:#0094b9">SIGN UP FOR A FREE TRIAL</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ready section ends -->
+        <!-- child section starts -->
+        <section class="childContainer" style="background: #172b4d;">
+            <div class="childSection">
+                <div class="container py-5">
+                    <div class="row text-center justify-content-center ">
+                        <div class="col-12 col-lg-8 py-4 text-white">
+                            <h1 class="fw-bold fs-1 mb-2">Let Your Child’s Code Come to Life!</h1>
+                            <h1 class="text-warning fw-light mb-5  fs-1">with our extensive subjects</h2>
+                                <p class="fs-4 fw-light ">Our Genius Coder Programme offers an extensive and
+                                    holistic
+                                    subject
+                                    library. The topics taught range from basic programming using Scratch Jr to
+                                    Computer
+                                    Science
+                                    taught with Python and C++.</p>
+                                <br>
+                                <p class="fs-4 fw-light">Our student-centric pedagogy ensures every child can learn
+                                    every
+                                    topic at
+                                    their own comfortable pace.</p>
+                        </div>
+                    </div>
+
+                    <div class="row gy-4 py-4">
+                        <div class="col-lg-3 col-sm-12">
+                            <div class="card c">
+                                <img class="card-img-top img-fluid img-thumbnail"
+                                    src="./images/mobile-app-development-courses.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center"><i class="fa-solid fa-mobile me-3"></i>Mobile
+                                        App
+                                        Dev
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-12">
+                            <div class="card c">
+                                <img class="card-img-top img-fluid img-thumbnail"
+                                    src="./images/data-analytics-courses.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center"><i class="fa-solid fa-laptop-code me-3"></i>Data
+                                        Analytics
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-12">
+                            <div class="card c">
+                                <img class="card-img-top img-fluid img-thumbnail"
+                                    src="./images/digital-maker-courses.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center"><i class="fa-solid fa-gears me-3"></i>Digital
+                                        Maker
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-12 ">
+                            <div class="card c">
+                                <img class="card-img-top img-fluid img-thumbnail" src="./images/game-design-courses.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center"><i class="fa-solid fa-gamepad me-3"></i>Game
+                                        Design
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-12 ">
+                            <div class="card c">
+                                <img class="card-img-top img-fluid img-thumbnail" src="./images/robotics-courses.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center"><i class="fa-solid fa-robot me-3"></i>Robotics
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-12 ">
+                            <div class="card c">
+                                <img class="card-img-top img-fluid img-thumbnail"
+                                    src="./images/web-development-banner.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center"><i class="fa-solid fa-code me-3"></i>Web Dev
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-12">
+                            <div class="card c">
+                                <img class="card-img-top img-fluid img-thumbnail"
+                                    src="./images/virtual-reality-courses.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center"><i class="fa-solid fa-vr-cardboard"></i>Virtual
+                                        Reality
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-12">
+                            <div class="card c">
+                                <img class="card-img-top img-fluid img-thumbnail" src="./images/pre-school-courses.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center"><i
+                                            class="fa-solid fa-child-reaching me-3"></i>Pre-School
+                                        &
+                                        tactile</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- child Section ends -->
+
+        <!-- pedagogy Section starts -->
+        <section class="pedagogyContainer">
+            <div class="pedagogySection">
+                <div class="container">
+                    <div class="row justify-content-center ">
+                        <div class="col-12 col-lg-8 col-xl-6">
+                            <h1 class="my-5 text-center fs-2 fw-normal" style="color:#172b4d">Every child learns at
+                                their
+                                own pace with our Personalized Curriculum Roadmap</h1>
+                            <p class="text-center">To better cater to everyone’s interest, aptitude, and background,
+                                the
+                                EPIC pedagogy utilizes a fully customizable, ultra-modular approach to build a
+                                Personalized
+                                Curriculum Roadmap that is both Progressive and Engaging.</p>
+                            <p class="text-center">Our Subject Modules for our coding courses in Singapore are
+                                designed
+                                at 4
+                                progressive competency levels: Junior, Basic, Intermediate and Advanced, to cater
+                                for a
+                                conducive and effective learning environment for each student.</p>
+                            <img src="./images/progressive-curriculum.png" alt="" class="img-fluid my-4">
+                            <p class="text-center">Here is an example of a Curriculum Roadmap. Your child’s personal
+                                Curriculum Roadmap will be developed in consultation with parents, students and
+                                education
+                                and technology professionals after the free trial.</p>
+                            <img src="./images/personalized-curriculum.png" alt="" class="img-fluid my-4">
+                            <h3 class="my-4 text-center fs-3 fw-normal" style="color:#172b4d">Our Pedagogy</h3>
+                            <p class="text-center">The Genius Coder Programme’s personal coaching environment allows
+                                instructors to have a deep understanding of your child’s learning progression.
+                                Students
+                                get
+                                to learn at their own pace while being continuously challenged.</p>
+                            <img src="./images/roboto-epic-pedagogy.png" alt="" class="img-fluid my-4">
+                            <button class="read-btn btn btn-outline-dark text-uppercase w-100 my-1 py-2 "><a href="#"
+                                    class="text-decoration-none text-dark text-center ">read more about our
+                                    pedagogy</a></button>
+                            <button class="signup-btn rounded text-uppercase w-100 my-3 py-2 "><a href="#"
+                                    style="color:#0094b9;" class="text-decoration-none text-center ">kickstart your
+                                    child's
+                                    learning with a free trial now</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- pedagogy section ends -->
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-12 col-lg-3 m-5">
+                    <img src="./images/roboto-coding-academy-logo.png" alt="" class="img-fluid">
+                    <p class="text-light-emphasis my-4">Roboto Coding Academy</p>
+                    <p><i class="fa-solid fa-phone-flip text-secondary me-2"></i><a href="#"
+                            class="text-decoration-none " style="color:#0094b9">+65 9193 8589</a></p>
+                    <p><i class="fa-solid fa-envelope text-secondary me-2"></i><a href="#" class="text-decoration-none "
+                            style="color:#0094b9">hello@roboto.sg</a></p>
+                    <p class="text-secondary"><i class="fa-solid fa-location-dot me-2"></i>199B Thomson Rd, Goldhill
+                        Centre
+                        Singapore 307636</p>
+                </div>
+
+                <div class="col-12 col-lg-3 f2">
+                    <h4 class="text-secondary fw-light mb-3">Quick Links</h4>
+                    <p><a href="#" class="text-decoration-none " style="color:#0094b9">Sitemap</a></p>
+                    <p><a href="#" class="text-decoration-none " style="color:#0094b9">About Us</a></p>
+                    <p><a href="#" class="text-decoration-none " style="color:#0094b9">Weekly Coding Classes</a></p>
+                    <p><a href="#" class="text-decoration-none " style="color:#0094b9">Holiday Camps</a></p>
+                    <p><a href="#" class="text-decoration-none " style="color:#0094b9">Blog</a></p>
+                    <p><a href="#" class="text-decoration-none " style="color:#0094b9">Contact Us</a></p>
+                    <p><a href="#" class="text-decoration-none " style="color:#0094b9">FAQ</a></p>
+                    <p><a href="#" class="text-decoration-none " style="color:#0094b9">Careers</a></p>
+                </div>
+
+                <div class="col-12 col-lg-3">
+                    <h3 class="text-secondary fs-3 fw-light my-5">Get in touch!</h3>
+                    <div class="fbyt d-flex">
+                        <i class="fi fa-brands fa-facebook rounded-circle me-3 fs-1"
+                            style="background: #fff; color:#3b5998;"></i>
+                        <i class="fa-brands fa-youtube rounded-circle fs-1"
+                            style="background: white; color:#c4302b;"></i>
+                    </div>
+                    <h3 class="text-secondary fs-3 fw-light my-5">WhatsApp with Us</h3>
+                    <div class="whtsp d-flex my-5">
+                        <i class="fi fa-brands fa-whatsapp rounded-circle me-3 fs-1 "
+                            style="background: white; color:#3b7e62;"></i>
+                        <button class="chat-btn btn btn-outline-success "><a href="#"
+                                class="text-decoration-none text-success">Chat now</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex  justify-content-between flex-column flex-md-row">
+                    <p class="text-secondary">© 2020 <span style="color: #0094b9;">Roboto Coding Academy.</span></p>
+                    <p class="text-white">Novena (Flagship) | Orchard | Tampines</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
